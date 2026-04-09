@@ -1,0 +1,9 @@
+{
+  "soundness": 5,
+  "novelty": 4,
+  "significance": 4,
+  "clarity": 6,
+  "evidence_quality": 4,
+  "overall": 5,
+  "justification": "The paper presents a coherent, physics\u2011aware preprocessing pipeline with clear narrative and mostly internally consistent mathematics (math audit largely PASS), including a reasonable incompressibility\u2011based benchmarking of derivative schemes. However, core methodological choices are only partially justified (e.g., quadratic temporal fitting, globally regressed viscosity) and key elements are under\u2011specified (full 26\u2011term library, units/interpretation of \u03bd post\u2011standardization), with the math audit flagging these as UNCERTAIN on critical points.\nMost importantly, no equation\u2011discovery experiment is performed, leaving the central claim of \u201coptimally conditioned\u201d features unvalidated; the numerical audit could not reproduce any claims, and evidence is limited to a few pointwise RMSEs, marginal divergence improvements, and qualitative residuals. Combined with figure/reproducibility gaps, the work is borderline overall: useful as a methodological note but not yet substantiated for its intended goal."
+}
